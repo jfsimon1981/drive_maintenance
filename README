@@ -1,14 +1,14 @@
 This simple utility for Linux reads through an entire raw filesystem
 in order to  help the hard drive  controller ensure all  sectors are
-readable and ocate if needed those with higher error rates.
+readable and re-locate if needed those with higher error rates.
 
 A simple read through helps with preventive maintenance.
 
 This utility does'nt modify any data and trates the file system as
 read-only raw device.
 
-The volume is not checked, execute with drive name and volume to read
-through.
+The  volume size is  not checked, execute with  drive name and volume
+to read through.
 
 Usage example:
  - sda  drive
